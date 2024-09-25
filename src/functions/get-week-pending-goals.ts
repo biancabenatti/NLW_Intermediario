@@ -57,3 +57,4 @@ export async function getWeekPendingGoals() {
 }
 
 // COALESCE = Permite fazer um if
+// O código busca metas pendentes, retornando informações sobre cada meta, incluindo o número de vezes que foram completadas. Se uma meta não tiver conclusões, ela ainda será incluída na lista com uma contagem de 0.

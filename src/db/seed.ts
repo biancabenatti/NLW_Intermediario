@@ -26,3 +26,5 @@ async function seed() {
 seed().finally(() => {
   client.end()
 })
+
+//A função seed() inicializa o banco de dados com metas e algumas conclusões, garantindo que as tabelas comecem com um estado conhecido e limpo.

@@ -25,3 +25,5 @@ export async function createGoal({
     goal,
   }
 }
+
+//A função createGoal permite a criação de uma nova meta no banco de dados, recebendo o título e a frequência desejada, e retorna os dados da meta recém-criada.

@@ -23,3 +23,6 @@ export const createGoalRoute: FastifyPluginAsyncZod = async app => {
     }
   )
 }
+
+//A rota createGoalRoute permite que os usuários criem novas metas ao enviar um POST para /goals com um título e uma frequência desejada. 
+//A validação garante que o título seja uma string válida e que a frequência esteja dentro do intervalo permitido de 1 a 7.

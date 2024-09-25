@@ -92,3 +92,6 @@ export async function getWeekSummary() {
     summary: result[0],
   }
 }
+
+// A função getWeekSummary compila um resumo das metas criadas e concluídas na semana atual, fornecendo contagens e detalhes estruturados por dia em formato JSON. 
+// Isso permite uma visualização clara do progresso em relação às metas ao longo da semana.

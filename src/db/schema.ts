@@ -25,3 +25,5 @@ export const goalCompletions = pgTable('goal_completions', {
     .notNull()
     .defaultNow(),
 })
+
+// Essas tabelas armazenam informações sobre metas e suas respectivas conclusões, garantindo que cada meta tenha um identificador único e registrando a data de criação tanto das metas quanto das suas conclusões.

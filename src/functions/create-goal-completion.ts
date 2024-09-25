@@ -60,3 +60,7 @@ export async function createGoalCompletion({
     goalCompletion,
   }
 }
+
+
+// A função createGoalCompletion verifica se a meta pode ser completada com base em quantas vezes já foi completada na semana atual e, se permitido, registra a nova conclusão. 
+//Se a meta já tiver sido completada o número desejado de vezes, lança um erro

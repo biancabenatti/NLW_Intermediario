@@ -21,3 +21,6 @@ export const createCompletionRoute: FastifyPluginAsyncZod = async app => {
     }
   )
 }
+
+//A rota createCompletionRoute permite que os usuários registrem a conclusão de uma meta ao enviar um POST para /completions com o goalId no corpo da requisição. 
+//A validação é feita usando Zod para garantir que o goalId seja uma string válida.
